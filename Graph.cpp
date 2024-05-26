@@ -319,7 +319,6 @@ void Graph::loadDirectedGraph(const std::vector<std::vector<int>>& matrix) {
         }
     }
 
-    // Consider the graph as directed when loading from a matrix
     directed = true;
 }
 
